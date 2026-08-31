@@ -1,0 +1,21 @@
+case_id	status	pkg	regex	elapsed_sec	benchmarks	notes
+pkg-api-testing--BenchmarkDecodeCodec	PASS	./pkg/api/testing	^BenchmarkDecodeCodec$	108	1	
+pkg-api-testing--BenchmarkDecodeCodecToInternalProtobuf	PASS	./pkg/api/testing	^BenchmarkDecodeCodecToInternalProtobuf$	14	1	
+pkg-api-testing--BenchmarkDecodeIntoExternalCodec	PASS	./pkg/api/testing	^BenchmarkDecodeIntoExternalCodec$	14	1	
+pkg-api-testing--BenchmarkDecodeIntoInternalCodec	PASS	./pkg/api/testing	^BenchmarkDecodeIntoInternalCodec$	14	1	
+pkg-api-testing--BenchmarkDecodeIntoJSON	PASS	./pkg/api/testing	^BenchmarkDecodeIntoJSON$	14	1	
+pkg-api-testing--BenchmarkDecodeIntoProtobuf	PASS	./pkg/api/testing	^BenchmarkDecodeIntoProtobuf$	14	1	
+pkg-api-testing--BenchmarkEncodeCodec	PASS	./pkg/api/testing	^BenchmarkEncodeCodec$	14	1	
+pkg-api-testing--BenchmarkEncodeCodecFromInternal	PASS	./pkg/api/testing	^BenchmarkEncodeCodecFromInternal$	14	1	
+pkg-api-testing--BenchmarkEncodeCodecFromInternalProtobuf	PASS	./pkg/api/testing	^BenchmarkEncodeCodecFromInternalProtobuf$	14	1	
+pkg-api-testing--BenchmarkEncodeCodecProtobuf	PASS	./pkg/api/testing	^BenchmarkEncodeCodecProtobuf$	14	1	
+pkg-api-testing--BenchmarkEncodeJSONMarshal	PASS	./pkg/api/testing	^BenchmarkEncodeJSONMarshal$	14	1	
+pkg-api-testing--BenchmarkEncodeProtobufGeneratedMarshal	PASS	./pkg/api/testing	^BenchmarkEncodeProtobufGeneratedMarshal$	14	1	
+pkg-api-testing--BenchmarkNodeConversion	PASS	./pkg/api/testing	^BenchmarkNodeConversion$	107	1	
+pkg-api-testing--BenchmarkNodeCopy	PASS	./pkg/api/testing	^BenchmarkNodeCopy$	14	1	
+pkg-api-testing--BenchmarkReplicationControllerConversion	PASS	./pkg/api/testing	^BenchmarkReplicationControllerConversion$	14	1	
+pkg-api-testing--BenchmarkReplicationControllerCopy	PASS	./pkg/api/testing	^BenchmarkReplicationControllerCopy$	15	1	
+plugin-pkg-admission-security-podsecurity--BenchmarkVerifyNamespace	PASS	./plugin/pkg/admission/security/podsecurity	^BenchmarkVerifyNamespace$	57	1	
+plugin-pkg-admission-security-podsecurity--BenchmarkVerifyPod	PASS	./plugin/pkg/admission/security/podsecurity	^BenchmarkVerifyPod$	23	16	
+staging-k8s-apimachinery-pkg-util-managedfields-internal--BenchmarkFieldsToSet	PASS	./staging/src/k8s.io/apimachinery/pkg/util/managedfields/internal	^BenchmarkFieldsToSet$	11	1	
+staging-k8s-apimachinery-pkg-util-managedfields-internal--BenchmarkObjectToTyped	PASS	./staging/src/k8s.io/apimachinery/pkg/util/managedfields/internal	^BenchmarkObjectToTyped$	5	1	

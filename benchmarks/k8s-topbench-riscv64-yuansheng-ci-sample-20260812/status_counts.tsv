@@ -1,0 +1,3 @@
+source_run	total	PASS	STAT_FAIL
+run4-missing-testdata-20	20	20	0
+run3-pass-218	218	217	1

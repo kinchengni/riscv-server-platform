@@ -1,0 +1,29 @@
+21-KUBERNETES-TOPBENCH-PASS-218 pkg-api-testing--BenchmarkDecodeCodecToInternalProtobuf RISC-V perf stat
+========================================================================================================
+
+Source CSV: /workspace/results/kubernetes_results.csv
+TestName: pkg-api-testing--BenchmarkDecodeCodecToInternalProtobuf
+Architecture column: PerformanceValue
+
+Raw perf stat metrics
+---------------------
+| Metric | RISC-V value |
+|---|---:|
+| duration_time | 1,222,329,290 |
+| task_clock | 2,220.44 |
+| cycles | 5,419,185,222 |
+| instructions | 2,221,907,310 |
+
+Derived metrics
+---------------
+| Metric | Value |
+|---|---:|
+| duration_s | 1.222329 |
+
+perf stat style summary
+-----------------------
+        1,222,329,290  duration_time
+             2,220.44  task_clock
+        5,419,185,222  cycles
+        2,221,907,310  instructions
+             1.222329  duration_s

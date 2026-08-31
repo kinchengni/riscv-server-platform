@@ -1,0 +1,29 @@
+21-KUBERNETES-TOPBENCH-PASS-218 pkg-api-testing--BenchmarkDecodeIntoYAML RISC-V perf stat
+=========================================================================================
+
+Source CSV: /workspace/results/kubernetes_results.csv
+TestName: pkg-api-testing--BenchmarkDecodeIntoYAML
+Architecture column: PerformanceValue
+
+Raw perf stat metrics
+---------------------
+| Metric | RISC-V value |
+|---|---:|
+| duration_time | 901,736,497 |
+| task_clock | 1,472.11 |
+| cycles | 3,592,454,169 |
+| instructions | 2,077,612,696 |
+
+Derived metrics
+---------------
+| Metric | Value |
+|---|---:|
+| duration_s | 0.901736 |
+
+perf stat style summary
+-----------------------
+          901,736,497  duration_time
+             1,472.11  task_clock
+        3,592,454,169  cycles
+        2,077,612,696  instructions
+             0.901736  duration_s
